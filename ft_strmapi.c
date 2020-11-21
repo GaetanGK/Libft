@@ -6,7 +6,7 @@
 /*   By: Gkatounk <gkatounk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 15:51:53 by Gkatounk          #+#    #+#             */
-/*   Updated: 2020/11/19 16:03:51 by Gkatounk         ###   ########.fr       */
+/*   Updated: 2020/11/20 20:27:19 by gkatounk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;
-	char		*dest;
+	char			*dest;
 
 	i = 0;
 	if (!s)

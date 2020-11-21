@@ -6,7 +6,7 @@
 /*   By: Gkatounk <gkatounk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/16 17:47:03 by Gkatounk          #+#    #+#             */
-/*   Updated: 2020/11/20 11:04:55 by Gkatounk         ###   ########.fr       */
+/*   Updated: 2020/11/20 18:21:31 by gkatounk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 {
 	unsigned char	*dest;
 	unsigned char	*sourc;
-	size_t		i;
+	size_t			i;
 
 	dest = (unsigned char *)dst;
 	sourc = (unsigned char *)src;

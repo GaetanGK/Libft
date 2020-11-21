@@ -6,13 +6,13 @@
 /*   By: Gkatounk <gkatounk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 10:40:15 by Gkatounk          #+#    #+#             */
-/*   Updated: 2020/11/20 09:05:57 by Gkatounk         ###   ########.fr       */
+/*   Updated: 2020/11/20 20:32:25 by gkatounk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static char	**ft_free_ptr(char **ptr)
+static char			**ft_free_ptr(char **ptr)
 {
 	size_t	i;
 
@@ -26,7 +26,7 @@ static char	**ft_free_ptr(char **ptr)
 	return (0);
 }
 
-static size_t	ft_strllen(char const *s, size_t start, char c)
+static size_t		ft_strllen(char const *s, size_t start, char c)
 {
 	size_t	i;
 
@@ -39,7 +39,7 @@ static size_t	ft_strllen(char const *s, size_t start, char c)
 	return (i);
 }
 
-static	size_t	ft_countword(char const *s, char c)
+static	size_t		ft_countword(char const *s, char c)
 {
 	size_t	i;
 	size_t	res;
@@ -58,7 +58,7 @@ static	size_t	ft_countword(char const *s, char c)
 	return (res);
 }
 
-char	**ft_split(char const *s, char c)
+char				**ft_split(char const *s, char c)
 {
 	char	**res;
 	size_t	i;

@@ -6,7 +6,7 @@
 /*   By: Gkatounk <gkatounk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 12:43:52 by Gkatounk          #+#    #+#             */
-/*   Updated: 2020/11/19 23:38:08 by Gkatounk         ###   ########.fr       */
+/*   Updated: 2020/11/20 18:20:35 by gkatounk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,11 +37,11 @@ static size_t	ft_size(int n)
 	return (res);
 }
 
-char		*ft_itoa(int n)
+char			*ft_itoa(int n)
 {
-	char	*res;
-	size_t	size;
-	long	nbr;
+	char		*res;
+	size_t		size;
+	long		nbr;
 
 	nbr = n;
 	size = ft_size(n);
