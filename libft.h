@@ -6,7 +6,7 @@
 /*   By: Gkatounk <gkatounk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 18:22:57 by Gkatounk          #+#    #+#             */
-/*   Updated: 2020/11/20 20:38:18 by gkatounk         ###   ########.fr       */
+/*   Updated: 2020/11/23 13:56:22 by gkatounk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,11 @@
 # include <string.h>
 # include <stdio.h>
 
-typedef struct			s_list
+typedef struct	s_list
 {
 	void				*content;
 	struct s_list		*next;
-}						t_list;
+}				t_list;
 
 void			*ft_memset(void *s, int c, size_t len);
 void			ft_bzero(void *s, size_t n);
