@@ -6,7 +6,7 @@
 /*   By: Gkatounk <gkatounk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 18:22:57 by Gkatounk          #+#    #+#             */
-/*   Updated: 2020/11/23 13:56:22 by gkatounk         ###   ########.fr       */
+/*   Updated: 2020/11/23 17:22:45 by gkatounk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,6 @@
 # define LIBFT_H
 # include <unistd.h>
 # include <stdlib.h>
-# include <string.h>
-# include <stdio.h>
 
 typedef struct	s_list
 {
